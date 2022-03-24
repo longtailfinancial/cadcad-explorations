@@ -151,16 +151,16 @@ founders = [
         'credentials_level': 5,
         'date_joined': dt.date(2021, 8, 15),
         'engagement': 'Part Time',
-        'role_name': 'Racoon',
-    },
-    {
-        'first_name': 'Zhiwei',
-        'last_name': 'Li',
-        'authorization_level' : 2,
-        'conviction_level': 2,
-        'credentials_level': 5,
-        'date_joined': dt.date(2022, 3, 6),
-        'engagement': 'Full Time',
         'role_name': 'Token Engineer 1',
-    }
+    },
+#     {
+#         'first_name': 'Zhiwei',
+#         'last_name': 'Li',
+#         'authorization_level' : 2,
+#         'conviction_level': 2,
+#         'credentials_level': 5,
+#         'date_joined': dt.date(2022, 3, 6),
+#         'engagement': 'Full Time',
+#         'role_name': 'Token Engineer 1',
+#     }
 ]
