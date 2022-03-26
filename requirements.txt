@@ -1,0 +1,6 @@
+panel
+param
+ipykernel
+pandas
+numpy
+jupyter
