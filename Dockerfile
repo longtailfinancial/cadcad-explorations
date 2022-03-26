@@ -1,6 +1,13 @@
+# A docker file to containerized the environment for 3.10 
+# for the LTF team.
+#
+# Author: Nicholas O'Kelley
+#
+# Date: March 25, 2022
+#
 FROM python:3.10-slim-buster
 
-ARG NB_USER=dev
+ARG NB_USER=longtailer
 ARG NB_UID=1000
 ENV USER ${NB_USER}
 ENV NB_UID ${NB_UID}
