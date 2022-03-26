@@ -6,10 +6,13 @@ Explorations into cadCAD
 
 Have installed
 
-- Jupyter Notebook (or Jupyter Labs)
+- Python >= 3.8+
 - A virtual environment
-  - [virtual fish]()
-  - Or use the one you know best
+  - Currently using [VirtualFish](https://virtualfish.readthedocs.io/en/latest/install.html)
+  - Uses the fish shell
+- Jupyter Labs or Jupyter notebook
+  - Download or use an extension inside of VScode
+- `ipykernel`
 
 ## Setup
 
@@ -40,4 +43,14 @@ pip install -r requirements.txt
 
 ```
 python -m ipykernel install --user --name=cadcad-explorations
+```
+
+## Extras for those in Docker-land
+
+Will need to have docker-ce installed
+
+```
+docker build . --no-cache -t cadcad
+
+docker container run -p 8888:8888 cadcad
 ```
