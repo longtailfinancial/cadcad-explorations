@@ -268,6 +268,18 @@ MarkupSafe = ">=2.0"
 i18n = ["Babel (>=2.7)"]
 
 [[package]]
+name = "ltfte"
+version = "0.0.2"
+description = "Library containing the collective tools required for Token Engineering work"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "ltfte-0.0.2-py3-none-any.whl", hash = "sha256:0ed585b3a853102629286cd55d082c059489ffda928eddd4daaa84e479f53a5d"},
+    {file = "ltfte-0.0.2.tar.gz", hash = "sha256:817b74b833ec874679688f2a7846b282a689fbbbf6883822b8cf58a36333dfee"},
+]
+
+[[package]]
 name = "markdown"
 version = "3.4.1"
 description = "Python implementation of Markdown."
@@ -836,4 +848,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "f071f145402b098eda4b728a1f74293642d54cc093cb56c392eb82bdc8868c51"
+content-hash = "d4d81c469bf8610fc0094fce66b5470ca3c3c76bd71a90bf9cc22b9312f98016"
